@@ -1,3 +1,4 @@
+#!/bin/sh
 cd /home/ec2-user/fbl/be && npm install
 pm2 start /home/ec2-user/fbl/be/index.js
 
